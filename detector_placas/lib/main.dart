@@ -58,7 +58,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
   // Para Android Emulator: 'http://10.0.2.2:8080/predict/'
   // Para iOS Simulator: 'http://localhost:8080/predict/'
   // Para dispositivo físico: 'http://TU_IP_LOCAL:8080/predict/'
-  static const String apiUrl = 'http://10.0.2.2:8080/predict/';
+  static const String apiUrl = 'http://lcw0gksk4w800s4088c0kkco.190.96.133.213.sslip.io/predict/';
 
   dynamic _selectedImage;
   List<String>? _placasDetectadas;
